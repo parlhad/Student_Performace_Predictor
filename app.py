@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 import streamlit as st
 import joblib
 from pathlib import Path
@@ -37,3 +31,4 @@ if st.button("Predict Performance"):
     prediction = model.predict(input_scaled)
 
     st.success(f"🎯 Predicted Performance Index: {prediction[0]:.2f}")
+
