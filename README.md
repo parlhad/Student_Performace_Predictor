@@ -22,6 +22,26 @@ Use the live app to:
 
 ---
 
+
+---
+
+## 📌 Usage Instructions
+
+To get a prediction, follow these steps in the interactive web interface:
+
+1.  **Enter Hours Studied:** Input the total number of hours spent studying.
+2.  **Enter Previous Exam Score:** Provide the score obtained in the last assessment.
+3.  **Enter Papers Practiced:** Input the count of sample question papers completed.
+4.  **Enter Daily Sleep Hours:** Specify the average amount of sleep per day.
+5.  **Click "Predict Performance":** The system will process the data through the trained model.
+
+> **Result:** The application calculates and displays the
+>  **Predicted Performance Index** instantly on the screen.
+
+
+
+---
+
 ## 🔍 Key Features
 
 ✔ Predicts student performance using machine learning regression  
@@ -133,3 +153,11 @@ Follow these steps to run the project locally.
 ```bash
 git clone https://github.com/parlhad/Student_Performace_Predictor.git
 cd Student_Performace_Predictor
+
+
+
+python -m pip install -r requirements.txt
+
+
+
+python -m streamlit run app.py
