@@ -91,7 +91,7 @@ Student_Performace_Predictor/
 ├── requirements.txt              # Project dependencies
 ├── .gitignore                    # Files to ignore (e.g., venv, __pycache__)
 └── README.md                     # Project documentation
-
+```
 ---
 
 ## 🛠️ Built With
