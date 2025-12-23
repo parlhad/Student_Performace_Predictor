@@ -48,4 +48,26 @@ It demonstrates how machine learning can be applied to **real-world educational 
 ---
 
 ## 📦 Repository Structure
+# Student Performance Predictor 🎓
 
+A machine learning-powered web application that predicts a student's final grade based on various academic and demographic features. This project uses a Regression model to provide real-time predictions via a user-friendly Streamlit interface.
+
+## 📌 Project Overview
+The goal of this project is to analyze the factors that influence student performance and provide a tool for educators and students to estimate future outcomes. 
+
+### Features:
+* **Predictive Modeling:** Uses a trained Machine Learning model (`.pkl`) to estimate scores.
+* **Interactive UI:** Built with Streamlit for a seamless user experience.
+* **Data Preprocessing:** Includes a standardized scaler to ensure input consistency.
+* **Reproducible:** Full training logic is documented in the Jupyter Notebook.
+
+## 📂 Project Structure
+```text
+Student_Performace_Predictor/
+├── app.py                        # Streamlit web application
+├── First.ipynb                   # Model training & experimentation notebook
+├── student_performance_model.pkl # Trained ML regression model
+├── scaler.pkl                    # Feature scaler used during training
+├── requirements.txt              # Project dependencies
+├── .gitignore                    # Files to ignore (e.g., venv, __pycache__)
+└── README.md                     # Project documentation
