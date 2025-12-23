@@ -153,16 +153,16 @@ Follow these steps to run the project locally.
 ```bash
 git clone https://github.com/parlhad/Student_Performace_Predictor.git
 cd Student_Performace_Predictor
-
+```
 ## install requerments
-
+```
 python -m pip install -r requirements.txt
-
+```
 
 ## run on terminal
-
+```
 python -m streamlit run app.py
-
+```
 ---
 ## 🧑‍💻 Why This Project Matters
 
